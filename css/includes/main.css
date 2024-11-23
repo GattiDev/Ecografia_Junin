@@ -1,0 +1,97 @@
+/*############################################ Import ############################################*/
+@import url('setting_style.css');
+@import url('btn_style.css');
+@import url('ban_style.css');
+@import url('menu_options_style.css');
+
+header{
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+main img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+#footer_content{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #80378b;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+
+#footer_content .img1{
+    margin-bottom: 15px;
+}
+
+/*Para celu*/
+/*#footer_content .img1, #footer_content .img2, #footer_content .img3{
+    display:inline-block;
+    width: 215px;
+    align-items: center;
+
+}*/
+
+#footer_content .img1{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+
+}
+
+#footer_content .img2{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+
+}
+
+#footer_content .img2{
+padding-top: 5px;
+}
+
+#footer_content img{
+    margin-left: 5px;
+}
+
+#footer_content p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#footer_content .tel{
+    padding-bottom: 20px;
+}
+
+#footer_content .img3{
+    padding: 10px;    
+    border-top: 2px solid white;
+}
+
+#footer_content h6{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#footer_content h6 a{
+    text-decoration: none; 
+    color: white;
+}
+
+#footer_content h6 a:hover{
+    color: white;
+    transition: 1s;
+}

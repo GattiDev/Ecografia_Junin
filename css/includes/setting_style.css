@@ -1,0 +1,42 @@
+/*############################################ Import ############################################*/
+@import url('fronts.css');
+
+*{
+  box-sizing:border-box; 
+  outline:none;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --font-family--Titulo-GD: 'MerriweatherRegular'; 
+  --font-family--SubTitulo-GD: 'MontserratRegular';
+
+  --font--Label-GD: 'MerriweatherBold';
+  --font--Labelfocus-GD: 'MerriweatherBlack';
+  --font--Title-GD: 'MontserratBold';
+
+  --font-family--Title: 'PetronaBoldItalic'; /*-----> Sub titulo */
+  --font-family--Button: 'PetronaThin';
+
+  --font-family--Tb-Title: "PetronaBold";
+  --font-family--Tb-Text: "PetronaLight";
+  --font-family--Tb-Footer: "PetronaThinItalic";    
+
+  --font-family--Araboto-M: "Araboto-Medium"; /*-----> Titulo */
+  --font-family--Araboto-N: "Araboto-Normal"; /*-----> Text */
+  --font-family--Corporate: "Corporate-S-Bold"; /*-----> Menú */
+  
+
+   --font-family--x: "Boboto-Medium";
+}
+
+/* Variables */
+  .light-mode {
+    --navbar-color: #222;
+    --navbar-bg-color: #F0F0F0;  
+}
+.dark-mode {
+    --navbar-color: #FFF;
+    --navbar-bg-color: #93268f;  
+}

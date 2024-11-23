@@ -1,0 +1,7 @@
+/*---> Adaptación para las tablet <---*/
+@media screen and (min-width: 420px) and (max-width: 768px){
+	body{
+		display: none;
+	}
+	
+}

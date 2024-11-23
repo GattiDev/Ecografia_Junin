@@ -1,0 +1,297 @@
+/*#################################################################################################*/
+	/*########################## CONTAINER - TABLE ##############################################*/
+/*#################################################################################################*/
+.datatable-container{
+	color: #ffffff;
+	width: 95%;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+/*#################################################################################################*/
+	/*########################## HEADER - BOTTOM / SEARCH ######################################*/
+/*#################################################################################################*/
+.datatable-container .header-tools{
+	background: #93268f;
+	padding:  12px;
+	display: flex;
+	align-items: baseline;
+
+	border-top: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+}
+
+.datatable-container .header-tools .material-icons{
+	font-size: 25px;
+	color: #ffffff;
+	text-shadow: 3px 0px 9px #93268f;
+}
+
+.searchicon{
+	position: relative;
+	font-size: 25px !important;
+	color: #ffffff;
+	text-shadow: 3px 0px 9px #751e72;
+}
+.icon-search{
+	position: relative;
+	top: 2px;
+	right: 5px;
+	margin-left: 15px;
+}
+
+/*#################################################################################################*/
+	/*########################## SEARCH - BUSCADOR ##############################################*/
+/*#################################################################################################*/
+.datatable-container .header-tools .search{
+	width: 30%;
+	height: 25px;
+}
+
+.datatable-container .header-tools .search .search-input{
+	position:relative;
+	width: 100%;
+	height: 25px;
+	top: -3px;
+	background-color: #751e72;
+	display: block;
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: 2px solid #93268f;
+	color: #ffffff;
+	font-family: var(--font-family--Tb-Text);
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.datatable-container .header-tools .search .search-input:focus{
+	border: 2px solid #751e72;
+	background-color: #93268f;
+	outline: none;
+}
+
+.datatable-container .header-tools .tools{
+	width: 70%;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.datatable-container .header-tools .tools ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+/*Button*/
+.datatable-container .header-tools .tools ul li{
+	display: inline-block;
+	height: 39px;
+	margin-right: 6px;
+	align-items: center;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #93268f;
+	border: 1px solid #93268f;
+}
+
+/*#################################################################################################*/
+		/*########################## DATA TABLE ##############################################*/
+/*#################################################################################################*/
+.datatable-container .datatable{
+	border-collapse: collapse;
+	width: 100%;
+	background: #751e72;
+	border-left: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+}
+
+.datatable-container .datatable,
+.datatable-container .datatable th,
+.datatable-container .datatable td{
+	padding: 12px 12px;
+}
+
+/*th - header table*/
+.datatable-container .datatable th{
+	font-weight: bolder;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.datatable-container .datatable td{
+	border-bottom: 2px solid #ffffff;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;	
+}
+
+.datatable-container .datatable tbody tr:hover{
+	background-color: #93268f;
+	color: #282828;
+}
+
+/*#################################################################################################*/
+	/*########################## FOOTER - TABLE ##############################################*/
+/*#################################################################################################*/
+.datatable-container .footer-tools{
+	background-color: #000000;
+	display: flex;
+	border-left: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+.datatable-container .footer-tools .list-items{
+	width: 30%;
+	line-height: 35px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.datatable-container .footer-tools .pages{
+	margin-left: auto;
+	margin-right: 0;
+	width: 70%;
+	height: 35px;
+}
+
+.datatable-container .footer-tools .pages ul{
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	margin-right: 2px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.datatable-container .footer-tools .pages ul li{
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.datatable-container .header-tools .tools ul li button{
+	width: 100%;
+	font-size: 16px;
+	box-sizing: border-box;
+	border: 0;
+	border-radius: 3px;
+	background: transparent;
+	cursor: pointer;
+}
+
+.datatable-container .header-tools .tools ul li button:hover{
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #751e72;
+}
+
+.datatable-container .footer-tools .pages ul li button{
+	width: 100%;
+	font-size: 16px;
+	position: relative;
+	top: 0px;
+	box-sizing: border-box;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.datatable-container .footer-tools .pages ul li button:hover{
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #751e72;
+	color: #ffffff;
+}
+
+.datatable-container .footer-tools .pages ul li span.active{
+	font-size: 16px;
+	position: relative;
+	top: 5px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #ffffff;
+	text-shadow: 3px 0px 9px #ffffff;
+}
+
+.datatable-container .footer-tools .pages ul li button,
+.datatable-container .footer-tools .pages ul li span,
+.datatable-container .header-tools .tools ul li button{
+	padding: 6px 12px;
+}
+
+.footer-tools select{
+	font-size: 16px;
+	background-color: #000000 !important;
+	color: #ffffff !important;
+	letter-spacing: 2px !important;
+	border: #000000 !important;
+}
+
+/*--> Aviso <--*/
+.datatable-container .datatable tbody tr .availabe::after,
+.datatable-container .datatable tbody tr .ask::after,
+.datatable-container .datatable tbody tr .order::after,
+.datatable-container .datatable tbody tr .offline::after{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*-----> Vendido <-----*/
+.datatable-container .datatable tbody tr .available::after{
+	content: 'Vendido';
+	color: greenyellow;
+}
+
+/*-----> Pedir <-----*/
+.datatable-container .datatable tbody tr .ask::after{
+	content: 'Pedir';
+	color: red;
+}
+
+/*-----> Pedido <-----*/
+.datatable-container .datatable tbody tr .order::after{
+	content: 'Pedido';
+	color: greenyellow;
+}
+
+/*-----> Disponible <-----*/
+.datatable-container .datatable tbody tr .offline::after{
+	content: 'Estable';
+	color: lightgray;
+}
+
+
+.datatable-container .datatable tbody tr .available::before,
+.datatable-container .datatable tbody tr .ask::before,
+.datatable-container .datatable tbody tr .order::before,
+.datatable-container .datatable tbody tr .offline::before{
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.datatable-container .datatable tbody tr .available::before{
+	background-color: greenyellow;
+}
+.datatable-container .datatable tbody tr .ask::before{
+	background-color: red;
+}
+.datatable-container .datatable tbody tr .order::before{
+	background-color: greenyellow;
+}
+.datatable-container .datatable tbody tr .offline::before{
+	background-color: lightgray;
+}

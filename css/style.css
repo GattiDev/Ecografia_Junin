@@ -1,0 +1,40 @@
+/*############################################ Import ############################################*/
+@import url('includes/main.css');
+@import url('menu_style.css');
+@import url('grid_style.css');
+@import url('mapa_style.css');
+
+@import url('home.css');
+/*@import url('includes/login_style.css');*/
+@import url('inf_medi.css');
+
+
+/*===> Screen Bing <===*/
+@import url(includes/reponsiveScreenBig_style.css);
+/*===> Screen Median <===*/
+@import url(includes/responsiveScreenMedian_style.css);
+/*===> Screen Tablet <===*/
+@import url(includes/responsiveScreenTablet_style.css);
+/*===> Screen Cells <===*/
+@import url(includes/responsiveScreenCells_style.css);
+/*=====> Menú <=====*/
+/*#menu .navbar__logo{
+    display: block;
+}*/
+
+/*#menu .navbar__logo img{
+    width: 100%;
+}*/
+
+/*=====> Grid <=====*/
+#grid{
+    display: block;
+    /*background-color: crimson;*/
+}
+
+/*=====> Mapa <=====*/
+#mapa{
+    display: block;
+    text-align: center;
+}
+

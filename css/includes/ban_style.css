@@ -1,0 +1,86 @@
+/*======= BANNER =======*/
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .bannerimg img{
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 70px;
+}
+
+/* ===> INFO <===*/
+
+.data{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top:500px; /*--> 400px celular */
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.data h1{
+    width: 300px !important; /*--> 275 celular */
+    color: white;
+    font-family: var(--font-family--x);
+    font-weight: bolder;
+    padding-bottom: 20px; /*--> 25 celular */
+}
+
+.data a{
+    text-decoration:none;
+}
+
+.data .btn{
+    /*margin-right: 15px; --> para celular */
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.button3{
+    font-size: 20px;
+    font-family: var(--font-family--Corporate);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color:white;
+}
+
+.data .btn:hover{ 
+    background-color: #ffffff;
+    color: #751e72;
+}
+
+.data_2{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    /*top: 480px;
+    width: 100%;*/
+    margin: auto;
+    flex-direction: column;
+}
+
+.data_2 h2{
+    /*width: 275px !important;*/
+    color: white;
+    font-family: var(--font-family--Araboto-M);
+    font-weight: bolder;
+    font-size: 22px;
+}
+ 
+.data_2 h1{
+    /*width: 275px !important;*/
+    color: white;
+    font-family: var(--font-family--Araboto-M);
+    font-weight: bolder;
+    font-size: 31px;
+}

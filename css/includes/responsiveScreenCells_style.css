@@ -1,0 +1,111 @@
+/*---> Adaptación para los celulares <---*/
+@media (max-width: 396px){
+	#menu{
+    	width: 100%;
+	}
+ 
+	/*=====> Menú <=====*/
+	#menu .navbar__logo{
+	    width: 100%;
+	}
+
+	#menu .navbar__logo img{
+		width: 100%;
+	}
+
+	#button{
+		display: block;
+		width: 100%;
+	}
+
+	#button_First {
+    	display: none;
+	}
+
+	#button_Second {
+		display: block;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.data {
+		top: 350px;
+	}
+
+    .data_2 {
+        top: 350px;
+    }
+
+	.grid-item--text .lista-1, .grid-item--text .lista-2 {
+		width: 100%;
+	}
+
+	#grid .text_grid{
+		font-size: 35px;
+		color: #fff;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+	.name, .pass {
+		width: 80% !important;
+		font-size: 25px !important;
+		text-align: center;
+	}
+
+	#InfMedico .Formbox {
+		width: 100% !important;
+	}
+
+	.grid-container--sobreMi .gridImg {
+        width: 90% !important;
+    }
+
+	.gridText {
+        padding-top: 0px !important;
+    }
+
+	.grid-item--text {
+        /* display: inline-block; */
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        /* width: 100%; */
+        text-align: center !important;
+    }
+
+		/*************************************/
+		.flex-container>div {
+
+			/*PC MEDIANA*/
+		   width: 653px;
+			/*height: 300px; */
+			/*margin: 10px;*/
+		  }
+		 
+		  /*.grid-item--text {
+			/* display: inline-block; */
+		   /*width: auto;
+			padding-left: 0px !important;
+			padding-right: 0px !important;*/
+		/*}*/
+	
+		  #img img{
+			width: auto !important;
+			height: auto !important;
+		  }
+		  /*************************************/
+		  /*===> ECOGRAFÍA GENERALES */
+		  .flex-container :nth-child(1) { order: 1; } /*Img*/
+		  .flex-container :nth-child(2) { order: 2; } /*Text*/
+		  /*===> DIAGNÓSTICO DE LA MUJER */
+		  .flex-container :nth-child(3) { order: 3; } /*Img*/
+		  .flex-container :nth-child(4) { order: 4; }/*Text*/
+		  /*===> ECOGRAFÍAS OBSTÉTRICAS */
+		  .flex-container :nth-child(5) { order: 5; } /*Img*/
+		  .flex-container :nth-child(6) { order: 6; } /*Text*/
+		  /*===> ECOGRAFÍA DOPPLER  */
+		  .flex-container :nth-child(7) { order: 7; } /*Img*/
+		  .flex-container :nth-child(8) { order: 8; } /*Text*/
+		/*************************************/
+}

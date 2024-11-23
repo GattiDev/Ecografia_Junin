@@ -1,0 +1,82 @@
+.BoxInforme{
+    padding: 15px;
+}
+
+.BoxInforme h2{
+    letter-spacing: 3px;
+    text-align: center;
+    width: 1000px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #828282;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    text-shadow: 3px 0px 9px #323232;
+    border-left: 4px solid #751e72;
+    border-bottom: 4px solid #751e72;
+    box-shadow: 0px 2px 0px #93268f, 0px 2px 0px #93268f , 0px 1px 0px #93268f, 0px 3px 0px #93268f;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+.BoxInforme h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.BoxInforme p{
+    display: block;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 25px;
+    float: 0px;
+    padding-left: 10px;
+}
+
+/*Galeria*/
+.gallery {
+    display: block;
+    width: 1610px; 
+    margin: 0 auto;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    background-color: rgba(140, 143, 143, 0.384);
+}
+.gallery > div {
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+.gallery > div > img {
+    display: inline-block;
+    width: 390px;
+    transition: .1s transform;
+    transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+    z-index: 1;
+}
+
+.gallery > div:hover > img {
+    transform: scale(1.7,1.7);
+    transition: .3s transform;
+}
+    
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
+}

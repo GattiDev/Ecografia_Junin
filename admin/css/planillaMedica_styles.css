@@ -1,0 +1,142 @@
+#box{
+    display: block;
+    width: 1350px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 25px;
+
+}
+
+
+.planillaMedica label,
+.agregarImg label,
+.archive label{
+	display: inline-block;
+  	/*margin-bottom: -10px;*/
+  	font-size: 20px;
+  	color: #868e96;
+  	font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.planillaMedica input[type= "text"],
+.planillaMedica input[type= "date"],
+.planillaMedica select,
+.agregarImg input[type= "text"],
+.agregarImg input[type= "date"],
+.agregarImg select,
+.archive input[type= "text"],
+.archive input[type= "date"],
+.archive select,
+.BoxMenu input[type= "text"]{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #93268f;
+}
+.planillaMedica input[type= "text"],
+.agregarImg input[type= "text"],
+.archive input[type= "text"],
+.BoxMenu input[type= "text"]{
+    width: 430px;
+    height: 35px;
+}
+
+.planillaMedica input[type= "date"],
+.agregarImg input[type= "date"],
+.archive input[type= "date"]{
+    width: 160px;
+    height: 35px;
+}
+
+.planillaMedica select,
+.agregarImg select,
+.archive select{
+    width: auto;
+    height: 35px;
+}
+/*------ INICIO --- Mensaje ------*/
+.textarea-msj{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.textarea-msj textarea{
+    resize: none;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: px;
+}
+
+.textarea-msj .mesaje{  
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #93268f;
+}
+
+/*Update Img*
+.Upd_img{
+    font-size: 20px;
+    border: none;
+    color: #868e96;
+    padding-bottom: 10px;
+}*/
+
+/*Boton*/
+.btn_sub{
+	display:inline-block;
+	position: relative;
+	width: 225px;
+	text-align:center;
+	padding: 15px;
+	border: 2px solid transparent;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 3px;
+	letter-spacing: 2px;
+	text-shadow: 3px 0px 9px #000000;
+	transition: all 0.35s ease;
+	margin-top: 15px;
+}
+
+.submit-bt{
+    margin: 20px;
+}
+
+.submit{
+	color: #ffffff;
+    cursor: pointer;
+	background-color: #93268f;
+	border-color: #93268f;
+}
+
+.submit:hover{
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	color: #93268f;
+	background-color: transparent;
+	border-color: #93268f;
+	text-shadow: 3px 0px 9px #ffffff;
+}
+
+.submit:focus{
+	box-shadow:0 0 0 .2rem #ffffff;
+}
+
+.submit:disabled{
+	background-color: #93268f;
+	border-color: #93268f;
+}
+
+.submit:active{
+	color: #ffffff;
+	background-color: #93268f;
+	border-color: #93268f;
+	box-shadow:0 0 0 .2rem rgba(58,100,134,.5);
+}

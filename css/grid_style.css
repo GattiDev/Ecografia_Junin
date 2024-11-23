@@ -1,0 +1,208 @@
+/**/
+#eco{
+    width: 100%;
+    /*background-color: brown;*/
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 50%;
+  }
+
+  .flex-container>div {
+    /*PC*/
+    /*width: 920px;*/
+    /*height: 300px;*/
+    /*PC MEDIANA*/
+   /* width: 653px;
+    height: 300px; */
+    margin: 10px;
+  }
+ 
+  #img img{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  /*******/
+
+  /*===> ECOGRAFÍA GENERALES */
+  #ecoGenImg .grid-item--img{
+    /*width: 800px;
+    height: 100%;*/
+    text-align: center;    
+  }
+  /*#ecoGenText .grid-item--text{
+    font-size: 21px;
+    
+  }*/
+
+  /*===> DIAGNÓSTICO DE LA MUJER */
+  #diaMujImg .grid-item--img{
+    /*width: 100%;
+    height: 100%;*/
+    text-align: center; 
+  }
+  
+  /*#diaMujText .grid-item--text{*/
+    /*font-size: 21px;*/
+    /*color: rebeccapurple;*
+    
+  }*/
+
+  
+  /*===> ECOGRAFÍAS OBSTÉTRICAS */
+  #ecoObsImg .grid-item--img{
+    /*width: 100%;
+    height: 100%;*/
+    text-align: center; 
+  }
+ 
+  /*#ecoObsText .grid-item--text{
+    font-size: 21px;*/
+    /*color: turquoise;*
+    
+  }*/
+  
+  /*===> ECOGRAFÍA DOPPLER  */
+  #ecoDopImg .grid-item--img{
+    /*width: 100%;
+    height: 100%;*/
+    text-align: center; 
+  }
+
+  /*#ecoDopText .grid-item--text{
+    font-size: 21px;*/
+    /*color: rgb(42, 165, 69);*
+    
+  }*/
+
+  /*===> ECOGRAFÍA GENERALES *
+  .flex-container :nth-child(1) { order: 1; } *Img*
+  .flex-container :nth-child(2) { order: 2; } *Text*/
+  /*===> DIAGNÓSTICO DE LA MUJER *
+  .flex-container :nth-child(3) { order: 4; } *Img*
+  .flex-container :nth-child(4) { order: 3; }*Text*/
+  /*===> ECOGRAFÍAS OBSTÉTRICAS *
+  .flex-container :nth-child(5) { order: 5; } *Img*
+  .flex-container :nth-child(6) { order: 6; } *Text*/
+  /*===> ECOGRAFÍA DOPPLER  *
+  .flex-container :nth-child(7) { order: 8; } *Img*
+  .flex-container :nth-child(8) { order: 7; } *Text*/
+
+/**/
+
+/*#grid{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }*/
+
+/* = = = GRID - 1  GRID - 3 = = = */
+.grid-container--pri, .grid-container-3{
+    /*display: grid;*/
+    background-image: linear-gradient(#b58bbb,#f8f7f7);
+    padding: 10px;
+}
+
+
+/* = = = GRID - 2  GRID - 4 = = = */
+.grid-container--sec, .grid-container-4 {
+    /*display: grid;*/
+    background-image: linear-gradient(#fff,#f8f7f7);
+    padding: 10px;
+}
+
+.grid-item--text h3, .grid-item--text-sobreMi h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #80378b;
+    font-family: var(--font-family--Araboto-M);
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.grid-item--text p, .grid-item--text-sobreMi p{
+    color: #323232;
+    font-family: var(--font-family--Araboto-N);
+    font-size: 20px;
+    /*font-weight: normal;*/
+    letter-spacing: 2px;
+
+}
+
+.grid-item--text .p, .grid-item--text-sobreMi .p{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color:#323232;
+    font-weight: bolder;
+}
+
+.grid-item--text .p_primari, .grid-item--text-sobreMi .p_primari{
+    padding-top: 15px;
+}
+
+.grid-item--text .p_ultimo, .grid-item--text-sobreMi .p_ultimo{
+    padding-bottom: 15px;
+}
+
+.grid-item--text .p_data, .grid-item--text-sobreMi .p_data{
+    /*padding: 15px; */
+    color:#80378b;
+}
+
+.grid-item--text span, .grid-item--text-sobreMi span{
+    color: #b58bbb;
+}
+
+.grid-item--text .grid_btn{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/******************************/
+/******************************/
+
+.grid-item--text .pri_color{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #80378b;
+}
+
+.grid-item--text .sec_color{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #b58bbb;
+}
+
+.grid-item--text .lista-1{
+    /*display: inline-block;*/
+    width: 800px;
+    margin: auto;
+}
+
+.grid-item--text .lista-2{
+    /*display: inline-block;*/
+    width: 800px;
+    margin: auto;
+}
+
+/*=== Sobre Mi ===*/
+
+.grid-item--img-sobreMi {
+    background-color: #80378b;
+    margin: auto;
+}
+  
+.grid-item--text-sobreMi {
+    background-color: #f8f7f7; 
+    text-align: center;  
+}

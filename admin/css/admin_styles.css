@@ -1,0 +1,78 @@
+@import url(tabla_styles.css);
+@import url(modal.css);
+@import url(planillaMedica_styles.css);
+@import url(galery_style.css);
+@import url(menuPaciente_styles.css);
+
+#section_button{
+    display: block;
+    border-bottom: 2px solid var(--color--03); 
+}
+
+#section_button a{
+    line-height: 57px;
+    padding: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+    color: var(--color--05);
+}
+
+#home h2{
+    width: 1000px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #828282;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    text-shadow: 3px 0px 9px #323232;
+    border-left: 4px solid #751e72;
+    border-bottom: 4px solid #751e72;
+    box-shadow: 0px 2px 0px #93268f, 0px 2px 0px #93268f , 0px 1px 0px #93268f, 0px 3px 0px #93268f;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+.menu-btn{
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border: 2px solid var(--color--01);
+    background-color: var(--color--01);
+}
+
+.menu-btn:hover{
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-color: var(--color--02);
+    transition: 1s;
+}
+
+.menu-btn span{
+    padding-right: 5px;
+    font-family: var(--font-family--Button);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-btn i{
+    font-size: 18px;
+}
+
+.menu-btn span:hover,
+.menu-btn i:hover{
+    color: var(--color--02);
+    text-shadow: 6spx 0px 10px var(--color--03);
+    transition: 1s;
+}
+
+.btnadmin, .btnlicen{
+    font-family: var(--font-family--Button);
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--color--02);
+}

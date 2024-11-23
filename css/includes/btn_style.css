@@ -1,0 +1,58 @@
+/*===== Botones ===== */
+#button_First, #button_Second{
+    display: block;
+    /*padding: 15px; --> celular*/
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-family--x);
+    font-size: 20px;
+    /*letter-spacing: 1px;*/
+    cursor: pointer;
+}
+
+.button1{
+    margin-right: 5px; /*--> 15px --> celular */
+    padding: 7px; /*--> 10px --> celular */
+    border-radius: 25px;
+    background-color: #f8f7f7;
+    border: 2px solid #751e72;
+    color: #751e72;
+}
+
+.button2 {
+    margin-left: 5px; /*--> 15px --> celular */
+    padding: 7px; /*--> 10px --> celular */
+    border-radius: 25px;   
+    background-color: #751e72;
+    border: 2px solid #751e72;
+}
+
+.button h6{
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+.button1:hover{
+    margin-right: 5px; /*--> 15px --> celular */
+    padding: 7px; /*--> 10px --> celular */
+    border-radius: 25px;
+    background-color: #751e72;
+    border: 2px solid #f8f7f7;
+    color: #fff;
+}
+
+.button2:hover{
+    margin-left: 5px; /*--> 15px --> celular */
+    padding: 7px; /*--> 10px --> celular */
+    border-radius: 25px;   
+    background-color: #f8f7f7;
+    border: 2px solid #751e72;
+    color: #751e72;
+}

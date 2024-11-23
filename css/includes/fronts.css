@@ -1,0 +1,108 @@
+/*---> Merriweather | Montserrat <---*/
+@font-face{
+    font-family: "MerriweatherBold";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Merriweather-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "MerriweatherBlack";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Merriweather-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "MerriweatherRegular";
+    src:url(../../bookstores/fonts/Merriweather-Montserrat/Merriweather-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "MontserratBold";
+    src:url(../bookstores/fonts/Merriweather-Montserrat/Montserrat-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "MontserratRegular";
+    src:url(../../bookstores/fonts/Merriweather-Montserrat/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---> Petrona <---*/
+@font-face{
+    font-family: "PetronaBold";
+    src:url(../../bookstores/fonts/Petrona/Petrona-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaBoldItalic";
+    src:url(../../bookstores/fonts/Petrona/Petrona-BoldItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaLight";
+    src:url(../../bookstores/fonts/Petrona/Petrona-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaLightItalic";
+    src:url(../../bookstores/fonts/Petrona/Petrona-LightItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaThin";
+    src:url(../../bookstores/fonts/Petrona/Petrona-Thin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaThinItalic";
+    src:url(../../bookstores/fonts/Petrona/Petrona-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---> Araboto <---*/
+@font-face{
+    font-family: "Araboto-Medium";
+    src:url(../../bookstores/fonts/Araboto/Araboto-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Araboto-Normal";
+    src:url(../../bookstores/fonts/Araboto/Araboto-Normal.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---> Corporate <---*/
+@font-face{
+    font-family: "Corporate-S-Bold";
+    src:url(../../bookstores/fonts/Corporate/Corporate-S-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Boboto-Medium";
+    src:url(../../bookstores/fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

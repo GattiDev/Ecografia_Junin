@@ -1,0 +1,82 @@
+#InfMedico{
+    text-align: center;
+}
+
+#InfMedico h1{
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    background-color: #828282;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    text-shadow: 3px 0px 9px #323232;
+    border-left: 4px solid #751e72;
+    border-bottom: 4px solid #751e72;
+    box-shadow: 0px 2px 0px #93268f, 0px 2px 0px #93268f , 0px 1px 0px #93268f, 0px 3px 0px #93268f;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+#InfMedico .h1_InfMedico{
+    width: 425px;
+    height: 50px;
+}
+
+#InfMedico .Formbox{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+/*##### Font ####*/  
+#boxInputName{
+  display: block;
+}
+  
+#boxInputPass{
+  display: block;
+}
+  
+#boxInputName .InputName,
+#boxInputPass .InputPass{
+  margin: auto;
+  position: relative;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+  
+.name,
+.pass{
+  width: 100%;
+  padding: 0px;
+  border: none;
+  border-bottom: 2px solid #93268f;
+  outline: none;
+  background: transparent;
+  color: #828282;
+  font-size: 1.8rem;
+}
+
+.name-label,
+.pass-label{
+  position: absolute;
+  left: 0;
+  position: 10px 5px;
+  color: #828282;
+  font-size: 22px;
+  letter-spacing: 2px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.name:valid ~ label,
+.name:focus ~ label,
+.pass:valid ~ label,
+.pass:focus ~ label{
+  transform: translateY(-1.5rem);
+  color: #751e72;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
